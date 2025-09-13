@@ -1,0 +1,22 @@
+{
+  "name": "api-students-cdk",
+  "version": "1.0.0",
+  "bin": {
+    "api-students-cdk": "bin/api-students.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "synth": "cdk synth",
+    "diff": "cdk diff",
+    "deploy": "cdk deploy --require-approval never"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.151.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.151.0",
+    "constructs": "^10.3.0"
+  }
+}

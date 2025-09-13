@@ -1,0 +1,13 @@
+{
+  "app": "npx ts-node --prefer-ts-exts bin/api-students.ts",
+  "context": {
+    "imageUri": "355471816327.dkr.ecr.us-east-1.amazonaws.com/api-students:v2",
+    "containerPort": 8000,
+    "labRoleArn": "arn:aws:iam::355471816327:role/LabRole",
+    "desiredCount": 1,
+    "cpu": 256,
+    "memoryMiB": 512,
+    "region": "us-east-1",
+    "useDefaultVpc": true
+  }
+}
